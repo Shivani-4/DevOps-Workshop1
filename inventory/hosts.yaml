@@ -11,3 +11,7 @@ all:
       hosts:
         bar.example.com:
           ansible_connection: local
+    ttserver:
+      hosts:
+        tt.example.com:
+          ansible_connection: local
